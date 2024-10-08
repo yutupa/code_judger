@@ -1,8 +1,9 @@
 a = eval(input())
 b = eval(input())
-sum = 0
- 
+Sum = 0
+
 for i in range(a, b + 1):
-    sum += i
- 
-print(sum)
+    if i % 2 == 0:
+        Sum += i
+
+print(Sum)
