@@ -1,6 +1,4 @@
 
-# Online Python - IDE, Editor, Compiler, Interpreter
-import numpy as np
 # arr = [[0]*3]*3 #trap
 arr = [ [0]*3 for i in range(3)]
 
