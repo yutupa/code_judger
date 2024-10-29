@@ -24,5 +24,5 @@ for rows in arr:
             min_index_i = arr.index(rows)
             min_index_j = rows.index(cols)
 
-print("max: %d in (%d, %d)" %(max, max_index_i, max_index_j))
-print("min: %d in (%d, %d)" %(min, min_index_i, min_index_j))
+print("Index of the largest number %d is: (%d, %d)" %(max, max_index_i, max_index_j))
+print("Index of the smallest number %d is: (%d, %d)" %(min, min_index_i, min_index_j))
